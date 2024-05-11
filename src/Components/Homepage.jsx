@@ -159,7 +159,7 @@ const Homepage = () => {
           About me
         </h2>
 
-        <div className=" custom-bg  text-white   flex flex-col gap-20 text-[0.88em]  md:justify-center p-4 lg:p-32 ">
+        <div className=" custom-bg  text-white   flex flex-col gap-20  text-[0.7em] md:text-[0.88em]  md:justify-center p-4 lg:p-32 ">
           <p className="  leading-8 md:leading-[3rem]  text-center">
             I began my adventure in software engineering in 2021, my intial goal
             was to learn Python programming language so I could use it&apos;s
@@ -208,7 +208,7 @@ const Homepage = () => {
             <div
               className={`flex flex-wrap  ${
                 isDarkMode ? " " : "text-slate-100"
-              }  justify-center  gap-6 lg:gap-3`}
+              }  justify-center  gap-6 lg:gap-3 mt-2`}
             >
               <div className=" flex flex-col  items-center ">
                 <IoLogoJavascript className="text-5xl md:text-8xl  cursor-pointer hover:text-indigo-900" />
@@ -308,13 +308,13 @@ const Homepage = () => {
               isDarkMode ? "text-gray-900" : "text-white"
             } basis-1/2 flex flex-col gap-10 justify-center`}
           >
-            <p className="text-justify text-[1.2rem] md:text-[1.5rem]">
+            <p className="text-justify  text-[1.2rem] md:text-[1.5rem] hyphens-auto">
               Within just one month as an active contributor to the caMicroscope
               open-source project, I've made significant strides. With
               approximately 40 pull requests submitted, I've been consistently
               engaged in improving the project.
             </p>
-            <p className="text-justify text-[1.2rem] md:text-[1.5rem]">
+            <p className="text-justify text-[1.2rem] md:text-[1.5rem] hyphens-auto">
               {" "}
               One of my key contributions includes the development of Git
               workflows specifically designed to automate the testing of
@@ -322,7 +322,7 @@ const Homepage = () => {
               process but also ensures the reliability and efficiency of the
               project's codebase.
             </p>
-            <p className="text-justify text-[1.2rem] md:text-[1.5rem]">
+            <p className="text-justify text-[1.2rem] md:text-[1.5rem] hyphens-auto">
               {" "}
               My dedication and efforts have not only demonstrated my commitment
               to the project but also significantly advanced its development.

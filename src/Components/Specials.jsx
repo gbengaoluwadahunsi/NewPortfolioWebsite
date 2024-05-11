@@ -12,7 +12,7 @@ const Specials = (props) => {
       <section
         className={`${
           isDarkMode ? "bg-white" : "bg-slate-950 text-white"
-        }  shadow-[0_35px_60px_-15px_rgba(0,0,0,0.7)] grid mx-0 lg:grid-rows-4 pt-2  h-[36rem] lg:w-full rounded-lg place-self-center text-customBlue font-medium duration-500  transition-transform transform cursor-pointer  hover:-translate-x-4`}
+        }  shadow-[0_35px_60px_-15px_rgba(0,0,0,0.7)] grid mx-0 lg:grid-rows-4 pt-2  h-[36rem] lg:w-full rounded-lg place-self-center text-customBlue font-medium duration-500  transition-transform transform cursor-pointer  md:hover:-translate-x-4`}
       >
         <div className="row-span-3 place-self-center">
           <img
