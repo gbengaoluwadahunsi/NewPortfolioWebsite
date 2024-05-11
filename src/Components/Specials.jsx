@@ -29,7 +29,6 @@ const Specials = (props) => {
           <h2 className=" text-[1.2rem] lg:text-xl text-zinc-300">
             {props.menu}
           </h2>
-          =
           <div className="grid grid-cols-2 mt-1">
             {" "}
             <a

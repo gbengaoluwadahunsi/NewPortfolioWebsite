@@ -29,26 +29,9 @@ button {
   background-color: #06063d;
 }
 
-<<<<<<< HEAD
 f {
   color: rgb(173, 216, 230);
 }
-=======
-.btn-scrollTop{
-  position: fixed;
-  bottom: 60px;
-  font-size: 3rem;
-  z-index: 1;
-  cursor: pointer;
-  right: 4%;
-  background: none;
-  border-radius: 50px;
-  padding: 0px;
-  border: none;
-  opacity: 0.95;
-}
-
->>>>>>> a62448eddcd58bef500888ad1b55e77faa2a9366
 
 /* ScrollUp */
 
@@ -139,8 +122,8 @@ main button {
 
 @media screen and (max-width: 767px) {
   .mobile-header {
-    /* position: sticky; */
-    /* z-index: 9999;
-    width: 100%; */
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
   }
 }
