@@ -76,7 +76,7 @@ main button {
 }
 
 .custom-bg {
-  background-image: linear-gradient(to bottom right, #474771, #57579a),
+  background-image: linear-gradient(to bottom right, #1c1cba, #10106f),
     url("../src/assets/Images/aboutme.jpg");
   background-size: cover;
   background-position: center;
