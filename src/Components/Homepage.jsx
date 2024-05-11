@@ -35,7 +35,7 @@ const Homepage = () => {
   return (
     <div className={isDarkMode ? "" : "bg-gray-800"}>
       <Header />
-      <main className=" lg:h-screen relative   md:top-0  flex  justify-center flex-col-reverse md:flex-row md:gap-4 px-4 lg:px-32 ">
+      <main className=" relative   md:top-0  flex  justify-center flex-col-reverse md:flex-row md:gap-4 px-4 lg:px-32 ">
         <section
           className={`${
             isDarkMode ? "text-gray-700 " : "text-white "
@@ -150,7 +150,7 @@ const Homepage = () => {
           />
         </section>
       </main>
-      <section id="aboutMe" className=" mt-24 md:mt-10 ">
+      <section id="aboutMe" className=" mt-24 md:mt-10 -lg:mt-10 ">
         <h2
           className={` ${
             isDarkMode ? " text-fuchsia-800" : " text-fuchsia-500"
