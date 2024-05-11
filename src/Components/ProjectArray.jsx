@@ -8,7 +8,7 @@ const MenuArray = [
       "A fashion design web app showing different attires and styles to intending and current clients.",
     stack: "HTML5, CSS3, JavaScript,Tailwind CSS, React.js",
     linked: "https://astonish-designs.com.ng/",
-    gitHubRepo: "https://github.com/gbengaoluwadahunsi/MyReactPortfolioWebsite",
+    gitHubRepo: "https://github.com/gbengaoluwadahunsi/Astonish-Designs",
   },
   {
     id: 2,
