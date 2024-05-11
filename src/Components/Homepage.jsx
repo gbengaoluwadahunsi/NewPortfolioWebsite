@@ -7,7 +7,7 @@ import Header from "../Components/Header";
 import BackArrowUp from "../Components/BackArrowUp";
 import myphoto from "../assets/Images/Gbenga.jpg";
 import Myworks from "./My-works";
-import openSource from "../assets/Images/openSource.png";
+import openSource from "../assets/Images/opensource.png";
 import skills from "../assets/Images/skills.png";
 import Experience from "./Experience";
 import experienceData from "./experienceArray";
