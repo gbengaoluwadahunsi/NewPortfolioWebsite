@@ -160,7 +160,7 @@ const Homepage = () => {
         </h2>
 
         <div className=" custom-bg  text-white   flex flex-col gap-20 text-[0.88em]  md:justify-center p-4 lg:p-32 ">
-          <p className="  leading-8 md:leading-[3rem] shadow-md shadow-fuchsia-500  text-center">
+          <p className="  leading-8 md:leading-[3rem]  text-center">
             I began my adventure in software engineering in 2021, my intial goal
             was to learn Python programming language so I could use it&apos;s
             capabilities in my bioinformatics research (I had been a biomedical
@@ -169,7 +169,7 @@ const Homepage = () => {
             technologies used in software development.{" "}
           </p>
 
-          <p className="leading-8 md:leading-[3rem] shadow-md shadow-fuchsia-500 text-center">
+          <p className="leading-8 md:leading-[3rem] shadow-mdshadow-md bg-gray-300text-center">
             In addition to <span>Python</span>, I&apos;ve horned my skills in{" "}
             <span>JavaScript</span>, <span>TypeScript</span> front-end and
             back-end technologies as well as frameworks . I&apos;ve completed a
