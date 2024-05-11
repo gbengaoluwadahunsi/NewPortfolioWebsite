@@ -35,7 +35,7 @@ const Homepage = () => {
   return (
     <div className={isDarkMode ? "" : "bg-gray-800"}>
       <Header />
-      <main className="   md:top-0  flex  justify-center flex-col-reverse md:flex-row md:gap-4 px-4 lg:px-32 ">
+      <main className=" pt-20  md:top-0  flex  justify-center flex-col-reverse md:flex-row md:gap-4 px-4 lg:px-32 ">
         <section
           className={`${
             isDarkMode ? "text-gray-700 " : "text-white "
@@ -141,16 +141,16 @@ const Homepage = () => {
             </button>
           </ScrollLink>
         </section>
-        <section className="basis-[40%]  py-4 mx-auto lg:pt-10 ">
+        <section className="basis-[40%]  py-4 mx-auto pt-16 lg:pt-10 ">
           <img
             src={myphoto}
             alt="my photo"
             loading="lazy"
-            className="md:object-cover rounded-xl  w-[30rem] md:w-[60rem] h-[20%] md:h-[80%] lg:h-[80%] "
+            className="object-cover rounded-xl  w-[30rem] md:w-[60rem] h-[20%] md:h-[80%] lg:h-[80%] "
           />
         </section>
       </main>
-      <section id="aboutMe" className=" mt-24 md:mt-10 -lg:mt-10 ">
+      <section id="aboutMe" className="  md:mt-10 ">
         <h2
           className={` ${
             isDarkMode ? " text-fuchsia-800" : " text-fuchsia-500"
