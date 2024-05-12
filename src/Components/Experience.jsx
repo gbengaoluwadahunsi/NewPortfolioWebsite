@@ -26,8 +26,8 @@ const Experience = ({ experience }) => {
         <div className="flip-card-back text-sm flex flex-row ">
           <div className="w-[90%] bg-white text-gray-900 m-auto flex flex-col gap-4 px-2">
             <h2 className="text-xl font-bold mb-2">Job details</h2>
-          <p className="items-center flex flex-row justify-center gap-8"><RiArrowRightDoubleFill className="text-4xl text-white bg-indigo-900" /><span className="basis-[80%] text-justify">{experience.details[0]}</span></p>
-          <p className="items-center flex flex-row justify-center gap-8"><RiArrowRightDoubleFill className="text-4xl text-white bg-indigo-900" /><span className="basis-[80%]  text-justify">{experience.details[1]}</span></p>
+          <p className="items-center flex flex-row justify-center gap-8"><RiArrowRightDoubleFill className="text-4xl text-white bg-indigo-900" /><span className="basis-[80%] text-justify hyphens-auto">{experience.details[0]}</span></p>
+          <p className="items-center flex flex-row justify-center gap-8"><RiArrowRightDoubleFill className="text-4xl text-white bg-indigo-900" /><span className="basis-[80%]  text-justify hyphens-auto">{experience.details[1]}</span></p>
           
         
           </div>
