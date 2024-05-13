@@ -27,7 +27,7 @@ const ScrollUp = () => {
         style={{ display: isVisible ? "block" : "none" }}
         onClick={goTop}
       >
-        <FaArrowCircleUp className=" text-rose-500" />
+        <FaArrowCircleUp className=" bg-fucsia-800" />
       </button>
     </>
   );

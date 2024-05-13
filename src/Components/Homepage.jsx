@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
-import DarkModeContext from "./DarkModeprovider";
+
 import Header from "../Components/Header";
 import BackArrowUp from "../Components/BackArrowUp";
 import myphoto from "../assets/Images/Gbenga.jpg";
@@ -30,23 +30,21 @@ import github from "../assets/Images/github.png";
 import { useState } from "react";
 
 const Homepage = () => {
-  const { isDarkMode } = useContext(DarkModeContext);
+
 
   return (
-    <div className={isDarkMode ? "" : "bg-gray-800"}>
+    <div className={""}>
       <Header />
       <main className=" pt-20  md:top-0  flex  justify-center flex-col-reverse md:flex-row md:gap-4 px-4 lg:px-32 ">
         <section
-          className={`${
-            isDarkMode ? "text-gray-700 " : "text-white "
-          } basis-[80%] flex flex-col  gap-2 lg:gap-8  text-center lg:text-start py-16 lg:py-20`}
+          className={`${"text-gray-700 "
+            } basis-[80%] flex flex-col  gap-2 lg:gap-8  text-center lg:text-start py-16 lg:py-20`}
         >
           <p className=" lg:justify-start text-2xl lg:text-5xl">
             {" "}
             <span
-              className={`${
-                isDarkMode ? "text-fuchsia-800" : "text-fuchsia-500"
-              } font-extrabold`}
+              className={`${"text-fuchsia-800"
+                } font-extrabold`}
             >
               Welcome
             </span>{" "}
@@ -69,11 +67,9 @@ const Homepage = () => {
                   <img
                     src={github}
                     alt="github logo "
-                    className={`cursor-pointer hover:border${
-                      isDarkMode
-                        ? " hover:bg-fuchsia-800"
-                        : " hover:bg-fuchsia-500"
-                    }`}
+                    className={`cursor-pointer hover:border${" hover:bg-fuchsia-800"
+
+                      }`}
                   />
                 </Link>
               </li>
@@ -86,11 +82,9 @@ const Homepage = () => {
                   <img
                     src={linkedin}
                     alt=" linkedin logo"
-                    className={`cursor-pointer hover:border${
-                      isDarkMode
-                        ? " hover:bg-fuchsia-800"
-                        : " hover:bg-fuchsia-500"
-                    }`}
+                    className={`cursor-pointer hover:border${" hover:bg-fuchsia-800"
+
+                      }`}
                   />
                 </Link>
               </li>
@@ -103,11 +97,9 @@ const Homepage = () => {
                   <img
                     src={google}
                     alt="google+ logo"
-                    className={`cursor-pointer hover:border${
-                      isDarkMode
-                        ? " hover:bg-fuchsia-800"
-                        : " hover:bg-fuchsia-500"
-                    }`}
+                    className={`cursor-pointer hover:border${" hover:bg-fuchsia-800"
+
+                      }`}
                   />
                 </a>
               </li>
@@ -116,11 +108,9 @@ const Homepage = () => {
                   <img
                     src={call}
                     alt=" telephone icon"
-                    className={`cursor-pointer hover:border${
-                      isDarkMode
-                        ? " hover:bg-fuchsia-800"
-                        : " hover:bg-fuchsia-500"
-                    }`}
+                    className={`cursor-pointer hover:border${" hover:bg-fuchsia-800"
+
+                      }`}
                   />
                 </a>
               </li>
@@ -133,9 +123,8 @@ const Homepage = () => {
             duration={2000}
           >
             <button
-              className={`${
-                isDarkMode ? "bg-indigo-900" : "bg-indigo-500"
-              } text-white w-fit px-8 lg:px-12 py-4 rounded-full my-4 hover:w-80`}
+              className={`${"bg-indigo-900"
+                } text-white w-fit px-8 lg:px-12 py-4 rounded-full my-4 hover:bg-indigo-700`}
             >
               My Projects
             </button>
@@ -152,14 +141,13 @@ const Homepage = () => {
       </main>
       <section id="aboutMe" className="  md:mt-10 ">
         <h2
-          className={` ${
-            isDarkMode ? " text-fuchsia-800" : " text-fuchsia-500"
-          }  font-extrabold my-4 md:text-2xl lg:text-5xl px-8 md:px-10 lg:px-32`}
+          className={` ${" text-fuchsia-800"
+            }  font-extrabold my-4 md:text-2xl lg:text-5xl px-8 md:px-10 lg:px-32`}
         >
           About me
         </h2>
 
-        <div className=" custom-bg  text-white   flex flex-col gap-20  text-[0.7em] md:text-[0.88em]  md:justify-center p-4 lg:p-32 ">
+        <div className=" custom-bg  text-white   flex flex-col gap-20  text-[0.7em] md:text-[0.88em] lg:text-[1.1em] md:justify-center p-4 lg:p-32 ">
           <p className="  leading-8 md:leading-[3rem]  text-center">
             I began my adventure in software engineering in 2021, my intial goal
             was to learn Python programming language so I could use it&apos;s
@@ -181,9 +169,8 @@ const Homepage = () => {
 
       <section id="skills" className="flex flex-col px-8 md:px-10 lg:px-32 gap-10 py-10">
         <h2
-          className={`font-extrabold md:text-2xl lg:text-5xl my-4 ${
-            isDarkMode ? "text-fuchsia-800" : "text-fuchsia-500"
-          } `}
+          className={`font-extrabold md:text-2xl lg:text-5xl my-4 ${"text-fuchsia-800"
+            } `}
         >
           Skills
         </h2>
@@ -197,18 +184,15 @@ const Homepage = () => {
           </div>
           <div className="text-gray-900 basis-[78%] ">
             <p
-              className={`font-extrabold ${
-                isDarkMode ? "text-indigo-900" : "text-indigo-600"
-              } md:text-3xl py-4`}
+              className={`font-extrabold ${"text-indigo-900"
+                } md:text-3xl py-4`}
             >
               I&apos;m proficient in the following programming languages and
               technologies
             </p>
 
             <div
-              className={`flex flex-wrap  ${
-                isDarkMode ? " " : "text-slate-100"
-              }  justify-center  gap-6 lg:gap-3 mt-2`}
+              className={`flex flex-wrap   justify-center  gap-6 lg:gap-3 mt-2`}
             >
               <div className=" flex flex-col  items-center ">
                 <IoLogoJavascript className="text-5xl md:text-8xl  cursor-pointer hover:text-indigo-900" />
@@ -280,9 +264,8 @@ const Homepage = () => {
       </section>
       <section id="experience" className="flex flex-col px-8 lg:px-28 md:py-20">
         <h2
-          className={`font-extrabold my-4 md:text-2xl lg:text-5xl ${
-            isDarkMode ? "text-fuchsia-800" : "text-fuchsia-500"
-          } `}
+          className={`font-extrabold my-4 md:text-2xl lg:text-5xl ${"text-fuchsia-800"
+            } `}
         >
           Experience
         </h2>
@@ -293,20 +276,19 @@ const Homepage = () => {
           ))}
         </div>
       </section>
+      <Myworks />
       <section id="openSource" className="flex flex-col p-8  lg:px-32 md:py-10">
         <h2
-          className={`font-extrabold my-4 md:text-2xl lg:text-5xl ${
-            isDarkMode ? "text-fuchsia-800" : "text-fuchsia-500"
-          }  `}
+          className={`font-extrabold my-4 md:text-2xl lg:text-5xl ${"text-fuchsia-800"
+            }  `}
         >
           Open Source Contribution
         </h2>
 
         <div className=" flex  flex-col md:flex-row items-center gap-10">
           <div
-            className={`${
-              isDarkMode ? "text-gray-900" : "text-white"
-            } basis-1/2 flex flex-col gap-10 justify-center`}
+            className={`${"text-gray-900"
+              } basis-1/2 flex flex-col gap-10 justify-center`}
           >
             <p className="text-justify  text-[1.2rem] md:text-[1.5rem] hyphens-auto">
               Within just one month as an active contributor to the caMicroscope
@@ -337,7 +319,7 @@ const Homepage = () => {
           </div>
         </div>
       </section>
-      <Myworks />
+
       <div id="contactMe" className="relative ">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path
@@ -358,11 +340,9 @@ const Homepage = () => {
                   <img
                     src={github}
                     alt="github logo "
-                    className={`cursor-pointer hover:border${
-                      isDarkMode
-                        ? " hover:bg-fuchsia-800"
-                        : " hover:bg-fuchsia-500"
-                    }`}
+                    className={`cursor-pointer hover:border${"hover:bg-fuchsia-800"
+
+                      }`}
                   />
                 </Link>
               </li>
@@ -375,11 +355,9 @@ const Homepage = () => {
                   <img
                     src={linkedin}
                     alt=" linkedin logo"
-                    className={`cursor-pointer hover:border${
-                      isDarkMode
-                        ? " hover:bg-fuchsia-800"
-                        : " hover:bg-fuchsia-500"
-                    }`}
+                    className={`cursor-pointer hover:border${" hover:bg-fuchsia-800"
+
+                      }`}
                   />
                 </Link>
               </li>
@@ -392,11 +370,9 @@ const Homepage = () => {
                   <img
                     src={google}
                     alt="google+ logo"
-                    className={`cursor-pointer hover:border${
-                      isDarkMode
-                        ? " hover:bg-fuchsia-800"
-                        : " hover:bg-fuchsia-500"
-                    }`}
+                    className={`cursor-pointer hover:border${" hover:bg-fuchsia-800"
+
+                      }`}
                   />
                 </a>
               </li>
@@ -405,11 +381,9 @@ const Homepage = () => {
                   <img
                     src={call}
                     alt=" telephone icon"
-                    className={`cursor-pointer hover:border${
-                      isDarkMode
-                        ? " hover:bg-fuchsia-800"
-                        : " hover:bg-fuchsia-500"
-                    }`}
+                    className={`cursor-pointer hover:border${" hover:bg-fuchsia-800"
+
+                      }`}
                   />
                 </a>
               </li>
