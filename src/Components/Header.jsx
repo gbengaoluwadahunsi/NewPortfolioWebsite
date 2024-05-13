@@ -11,10 +11,10 @@ const Header = () => {
   };
 
   return (
-    <div className=" text-indigo-800   mobile-header">
+    <div className=" text-indigo-800 mobile-header ">
       <nav>
         <div
-          className={`flex  lg:items-start justify-between py-4 bg-blue-300  top-1 gap-10  px-12`}
+          className={`flex items-center lg:items-start justify-between py-4 bg-blue-300   px-14`}
         >
           {/* Primary menu and logo */}
 
@@ -27,7 +27,7 @@ const Header = () => {
             Gbénga
           </div>
           {/* primary */}
-          <div className=" hidden md:flex md:text-xl lg:text-2xl flex-wrap justify-center  gap-12 items-center  ">
+          <div className=" hidden md:flex md:text-xl lg:text-2xl flex-wrap justify-center basis-[90%] gap-12 items-center  ">
             <ScrollLink
               className="underline-offset-4 cursor-pointer  hover:underline "
               to="aboutMe"
@@ -77,16 +77,17 @@ const Header = () => {
             >
               Contact Me
             </ScrollLink>
-          </div>
-
-          <div className={`  "grid grid-cols-2 gap-2  items-center   `}>
-            <button className="   cursor-pointer w-fit  px-4 text-white py-2 rounded-full shadow-md hover:bg-indigo-700 hover:transition-all duration-300 ">
+            <button className=" hidden md:block cursor-pointer w-fit   px-4 text-white py-2 rounded-full shadow-md hover:bg-indigo-700  ">
               <a href="" download="">
                 Résumé
               </a>
             </button>
+          </div>
+
+          <div className= "w-10">
+           
             <div
-              className="md:hidden"
+              className=" text-xs md:hidden cursor-pointer"
               onClick={() => setToggleMenu(!toggleMenu)}
             >
               {toggleMenu ? <XMarkIcon /> : <Bars3Icon />}
@@ -150,6 +151,19 @@ const Header = () => {
               >
                 Open Source
               </ScrollLink>
+              <ScrollLink
+              className="underline-offset-4 cursor-pointer  hover:underline"
+              to="contactMe"
+              smooth={true}
+              duration={2000}
+            >
+              Contact Me
+            </ScrollLink>
+              <button className="  md:hidden cursor-pointer w-fit  px-4 text-white py-2 rounded-full shadow-md hover:bg-indigo-700 hover:transition-all duration-300 ">
+              <a href="" download="">
+                Résumé
+              </a>
+            </button>
             </div>
           </div>
         </div>

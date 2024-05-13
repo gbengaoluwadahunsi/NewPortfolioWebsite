@@ -35,7 +35,7 @@ const Homepage = () => {
   return (
     <div className={""}>
       <Header />
-      <main className=" pt-20  md:top-0  flex  justify-center flex-col-reverse md:flex-row md:gap-4 px-4 lg:px-32 ">
+      <main className=" pt-10 md:top-0  flex  justify-center flex-col-reverse md:flex-row md:gap-4 px-4 lg:px-32 ">
         <section
           className={`${"text-gray-700 "
             } basis-[80%] flex flex-col  gap-2 lg:gap-8  text-center lg:text-start py-16 lg:py-20`}
@@ -185,14 +185,14 @@ const Homepage = () => {
           <div className="text-gray-900 basis-[78%] ">
             <p
               className={`font-extrabold ${"text-indigo-900"
-                } md:text-3xl py-4`}
+                } md:text-3xl `}
             >
               I&apos;m proficient in the following programming languages and
               technologies
             </p>
 
             <div
-              className={`flex flex-wrap   justify-center  gap-6 lg:gap-3 mt-2`}
+              className={`flex flex-wrap   justify-center  gap-6 lg:gap-3 mt-12`}
             >
               <div className=" flex flex-col  items-center ">
                 <IoLogoJavascript className="text-5xl md:text-8xl  cursor-pointer hover:text-indigo-900" />
