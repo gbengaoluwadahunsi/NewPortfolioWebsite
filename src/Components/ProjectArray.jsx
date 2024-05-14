@@ -13,16 +13,15 @@ const MenuArray = [
   {
     id: 2,
 
-
     img: "knocks.png",
     title: "Knocks",
     menu: "Knocks",
     description:
-
       "A fullstack app where users can toggle or delete a note based on the order of its importance.",
     stack: "HTML5, CSS3, JavaScript,CSS React.js , MongoDB, Node/Express",
     linked: "https://knocks-api.onrender.com/",
-    gitHubRepo: "https://github.com/gbengaoluwadahunsi/gbengaoluwadahunsi-FullStackOpenExercises-PART3",
+    gitHubRepo:
+      "https://github.com/gbengaoluwadahunsi/gbengaoluwadahunsi-FullStackOpenExercises-PART3",
   },
   {
     id: 3,
@@ -72,8 +71,6 @@ const MenuArray = [
     linked: "https://tasty-yumzie.netlify.app/",
     gitHubRepo: "https://github.com/gbengaoluwadahunsi/TastyYumZieWebAppCodes",
   },
-
 ];
-
 
 export default MenuArray;

@@ -3,18 +3,11 @@ import { FaGithub } from "react-icons/fa";
 
 import { useContext } from "react";
 
-
 const Specials = (props) => {
-
-
   return (
     <>
       <section
-        className={`${
-          
-           "bg-white"
-          
-        }  shadow-[0_35px_60px_-15px_rgba(0,0,0,0.7)] grid mx-0 lg:grid-rows-4 pt-2  h-[32rem] lg:w-full rounded-lg place-self-center text-customBlue font-medium duration-500  transition-transform transform cursor-pointer  md:hover:-translate-x-4`}
+        className={`${"bg-white"}  shadow-[0_35px_60px_-15px_rgba(0,0,0,0.7)] grid mx-0 lg:grid-rows-4 pt-2  h-[32rem] lg:w-full rounded-lg place-self-center text-customBlue font-medium duration-500  transition-transform transform cursor-pointer  md:hover:-translate-x-4`}
       >
         <div className="row-span-3 place-self-center">
           <img
