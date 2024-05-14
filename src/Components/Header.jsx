@@ -158,7 +158,7 @@ const Header = () => {
               </ScrollLink>
               <button className="  md:hidden cursor-pointer w-fit  px-4 text-white py-2 rounded-full shadow-md hover:bg-indigo-700 hover:transition-all duration-300 ">
                 <a href="" download="">
-                  Résumé
+                  Resume
                 </a>
               </button>
             </div>
