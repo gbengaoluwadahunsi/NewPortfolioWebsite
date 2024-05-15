@@ -30,7 +30,7 @@ const Homepage = () => {
   return (
     <div className={""}>
       <Header />
-      <main className=" pt-10 md:top-0  flex  justify-center flex-col-reverse md:flex-row md:gap-4 px-4 lg:px-32 ">
+      <main className=" pt-10 md:pt-20 flex  justify-center flex-col-reverse md:flex-row md:gap-4 px-4 lg:px-32 ">
         <section
           className={`${"text-gray-700 "} basis-[80%] flex flex-col  gap-2 md:gap-8  text-center lg:text-start py-16 lg:py-20`}
         >

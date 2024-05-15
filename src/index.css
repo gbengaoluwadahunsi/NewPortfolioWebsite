@@ -120,7 +120,7 @@ main button {
   transform: rotateY(180deg);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1290px) {
   .mobile-header {
     position: fixed;
     z-index: 9999;
