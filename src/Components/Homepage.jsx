@@ -44,7 +44,7 @@ const Homepage = () => {
             to my portfolio website{" "}
           </p>
           <p className="p-2 lg:leading-[3.2rem]  lg:text-4xl">
-            I&apos;m a software engineer that specializes in front-end and
+            I&apos;m a software Engineer that specializes in front-end and
             back-end technologies. I use my skills to provide innovative
             solutions to commercial and social ideas.
           </p>
@@ -132,7 +132,7 @@ const Homepage = () => {
 
         <div className=" custom-bg  text-white   flex flex-col gap-20  text-[0.7em] md:text-[0.88em] lg:text-[1.1em] md:justify-center p-4 lg:p-32 ">
           <p className="  leading-8 md:leading-[3rem]  text-center">
-            I began my adventure in software engineering in 2021, my intial goal
+            I began my adventure in software engineering in 2021, my initial goal
             was to learn Python programming language so I could use it&apos;s
             capabilities in my bioinformatics research (I had been a biomedical
             researcher for 8 years before that), After discovering that I had a
