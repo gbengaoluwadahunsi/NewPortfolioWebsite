@@ -97,11 +97,11 @@ const Header = () => {
         {/* mobile navigation */}
 
         <div
-          className={` fixed z-40 w-[70%] md:w-[40%] ${"bg-gray-100  text-gray-700"}  overflow-hidden flex flex-col gap-12  origin-top duration-700 ${
+          className={` w-[70%] md:w-[40%] ${"bg-gray-100  text-gray-700"}  overflow-hidden flex flex-col gap-12  origin-top duration-700 ${
             !toggleMenu ? "h-0" : "h-full w-[64%]  xl:hidden"
           }`}
         >
-          <div className="px-8   h-[30rem] py-16 ">
+          <div className="px-8 -[40rem] py-16 ">
             <div className="flex  text-[0.8em] flex-col gap-8 font-bold  ">
               <ScrollLink
                 className="cursor-pointer"
