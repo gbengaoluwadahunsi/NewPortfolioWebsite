@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
+import { Link as ScrollLink} from "react-scroll";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const Header = () => {
@@ -27,7 +27,7 @@ const Header = () => {
             Gbénga
           </div>
           {/* primary */}
-          <div className=" hidden md:flex md:text-xl lg:text-2xl flex-wrap justify-center basis-[90%] gap-12 items-center  ">
+          <div className=" hidden  md:flex md:text-xl lg:text-2xl flex-wrap justify-center basis-[90%] gap-12 items-center  ">
             <ScrollLink
               className="underline-offset-4 cursor-pointer  hover:underline "
               to="aboutMe"
@@ -78,7 +78,7 @@ const Header = () => {
               Contact Me
             </ScrollLink>
             <button className=" hidden md:block cursor-pointer w-fit   px-4 text-white py-2 rounded-full shadow-md hover:bg-indigo-700  ">
-              <a href="" download="">
+              <a href="src/assets/Images/Gbenga_Oluwadahunsi_CV.pdf" download="">
                 Résumé
               </a>
             </button>
@@ -157,7 +157,7 @@ const Header = () => {
                 Contact Me
               </ScrollLink>
               <button className="  md:hidden cursor-pointer w-fit  px-4 text-white py-2 rounded-full shadow-md hover:bg-indigo-700 hover:transition-all duration-300 ">
-                <a href="" download="">
+                <a href="src/assets/Images/Gbenga_Oluwadahunsi_CV.pdf" download="">
                   Resume
                 </a>
               </button>

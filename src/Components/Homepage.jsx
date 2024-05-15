@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
-import { useContext } from "react";
-import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
 
 import Header from "../Components/Header";
 import BackArrowUp from "../Components/BackArrowUp";
@@ -26,7 +25,6 @@ import call from "../assets/Images/call.png";
 import google from "../assets/Images/google.png";
 import linkedin from "../assets/Images/linkedin.png";
 import github from "../assets/Images/github.png";
-import { useState } from "react";
 
 const Homepage = () => {
   return (
@@ -38,14 +36,14 @@ const Homepage = () => {
         >
           <p className=" lg:justify-start text-2xl lg:text-5xl">
             {" "}
-            <span className={`${"text-fuchsia-800"} font-extrabold`}>
+            <span className={`${"text-fuchsia-800"} font-extrabold  text-[3.6rem]  sm:text-[4rem] md:text-[6rem]`}>
               Welcome
             </span>{" "}
-            to my portfolio website{" "}
+            {/* to my portfolio website{" "} */}
           </p>
           <p className="p-2 lg:leading-[3.2rem]  lg:text-4xl">
             I&apos;m a software Engineer that specializes in front-end and
-            back-end technologies. I use my skills to provide innovative
+            back-end technologies.I use my skills to provide innovative
             solutions to commercial and social ideas.
           </p>
 
@@ -132,12 +130,12 @@ const Homepage = () => {
 
         <div className=" custom-bg  text-white   flex flex-col gap-20  text-[0.7em] md:text-[0.88em] lg:text-[1.1em] md:justify-center p-4 lg:p-32 ">
           <p className="  leading-8 md:leading-[3rem]  text-center">
-            I began my adventure in software engineering in 2021, my initial goal
-            was to learn Python programming language so I could use it&apos;s
-            capabilities in my bioinformatics research (I had been a biomedical
-            researcher for 8 years before that), After discovering that I had a
-            strong interest in programming, I made the decision to study the
-            technologies used in software development.{" "}
+            I began my adventure in software engineering in 2021, my initial
+            goal was to learn Python programming language so I could use
+            it&apos;s capabilities in my bioinformatics research (I had been a
+            biomedical researcher for 8 years before that), After discovering
+            that I had a strong interest in programming, I made the decision to
+            study the technologies used in software development.{" "}
           </p>
 
           <p className="leading-8 md:leading-[3rem]  text-center">
@@ -271,9 +269,9 @@ const Homepage = () => {
           >
             <p className="text-justify  text-[1.2rem] md:text-[1.5rem] hyphens-auto">
               Within just one month as an active contributor to the caMicroscope
-              open-source project, I've made significant strides. With
-              approximately 40 pull requests submitted, I've been consistently
-              engaged in improving the project.
+              open-source project, I&apos;ve made significant strides. With
+              approximately 40 pull requests submitted, I&apos;ve been
+              consistently engaged in improving the project.
             </p>
             <p className="text-justify text-[1.2rem] md:text-[1.5rem] hyphens-auto">
               {" "}
@@ -281,7 +279,7 @@ const Homepage = () => {
               workflows specifically designed to automate the testing of
               functions. This automation not only streamlines the testing
               process but also ensures the reliability and efficiency of the
-              project's codebase.
+              project&apos;s codebase.
             </p>
             <p className="text-justify text-[1.2rem] md:text-[1.5rem] hyphens-auto">
               {" "}
