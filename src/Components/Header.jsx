@@ -14,7 +14,7 @@ const Header = () => {
     <div className=" text-indigo-800 mobile-header ">
       <nav>
         <div
-          className={`flex items-center lg:items-start justify-between py-4 bg-blue-300   px-14`}
+          className={`flex items-center md:items-start  justify-between py-4 bg-blue-300 px-4  md:px-14`}
         >
           {/* Primary menu and logo */}
 
@@ -27,7 +27,7 @@ const Header = () => {
             Gbénga
           </div>
           {/* primary */}
-          <div className=" hidden  md:flex md:text-xl lg:text-2xl flex-wrap justify-center basis-[90%] gap-12 items-center  ">
+          <div className=" hidden  lg:flex md:text-xl lg:text-2xl  justify-center  basis-[86%] gap-12 items-center">
             <ScrollLink
               className="underline-offset-4 cursor-pointer  hover:underline "
               to="aboutMe"
@@ -77,16 +77,17 @@ const Header = () => {
             >
               Contact Me
             </ScrollLink>
-            <button className=" hidden md:block cursor-pointer w-fit   px-4 text-white py-2 rounded-full shadow-md hover:bg-indigo-700  ">
+            
+          </div>
+          <button className=" hidden lg:block cursor-pointer w-fit  self-end items-start px-4 text-white py-2 rounded-full shadow-md hover:bg-indigo-700  ">
               <a href="src/assets/Images/Gbenga_Oluwadahunsi_CV.pdf" download="">
                 Résumé
               </a>
             </button>
-          </div>
 
           <div className="w-10">
             <div
-              className=" text-xs md:hidden cursor-pointer"
+              className=" text-xs lg:hidden cursor-pointer"
               onClick={() => setToggleMenu(!toggleMenu)}
             >
               {toggleMenu ? <XMarkIcon /> : <Bars3Icon />}

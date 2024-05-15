@@ -32,15 +32,16 @@ const Homepage = () => {
       <Header />
       <main className=" pt-10 md:top-0  flex  justify-center flex-col-reverse md:flex-row md:gap-4 px-4 lg:px-32 ">
         <section
-          className={`${"text-gray-700 "} basis-[80%] flex flex-col  gap-2 lg:gap-8  text-center lg:text-start py-16 lg:py-20`}
+          className={`${"text-gray-700 "} basis-[80%] flex flex-col  gap-2 md:gap-8  text-center lg:text-start py-16 lg:py-20`}
         >
-          <p className=" lg:justify-start text-2xl lg:text-5xl">
-            {" "}
-            <span className={`${"text-fuchsia-800"} font-extrabold  text-[3.6rem]  sm:text-[4rem] md:text-[6rem]`}>
+         
+          
+            <p
+              className={`${"text-fuchsia-800"} lg:justify-start  font-extrabold  text-[3.6rem]  sm:text-[4rem] md:text-[6rem]`}
+            >
               Welcome
-            </span>{" "}
-            {/* to my portfolio website{" "} */}
-          </p>
+            </p>
+          
           <p className="p-2 lg:leading-[3.2rem]  lg:text-4xl">
             I&apos;m a software Engineer that specializes in front-end and
             back-end technologies.I use my skills to provide innovative
