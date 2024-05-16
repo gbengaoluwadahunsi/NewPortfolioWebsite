@@ -43,7 +43,7 @@ const Homepage = () => {
             </p>
           
           <p className="p-2 lg:leading-[3.2rem]  lg:text-4xl">
-            I&apos;m a software Engineer that specializes in front-end and
+            I&apos;m a Software Engineer that specializes in front-end and
             back-end technologies.I use my skills to provide innovative
             solutions to commercial and social ideas.
           </p>
