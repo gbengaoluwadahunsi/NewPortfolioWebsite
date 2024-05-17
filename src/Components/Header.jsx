@@ -20,8 +20,8 @@ const Header = () => {
 
           {/* logo */}
           <div
-            className="  cursor-pointer font-extrabold text-3xl lg:text-4xl  text-indigo-900  w-fit justify-center"
-            id="fontFamily"
+            className="  cursor-pointer font-extrabold text-3xl lg:text-4xl poetsen-one-regular text-indigo-900  w-fit justify-center"
+            // id="fontFamily"
           >
             {" "}
             Gbénga

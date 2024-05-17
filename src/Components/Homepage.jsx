@@ -37,7 +37,7 @@ const Homepage = () => {
          
           
             <p
-              className={`${"text-fuchsia-800"} lg:justify-start  font-extrabold  text-[3.6rem]  sm:text-[4rem] md:text-[6rem]`}
+              className={`${"text-fuchsia-800"} lg:justify-start  font-extrabold  poetsen-one-regular text-[3.6rem]  sm:text-[4rem] md:text-[6rem]`}
             >
               Welcome
             </p>
@@ -124,7 +124,7 @@ const Homepage = () => {
       </main>
       <section id="aboutMe" className="  md:mt-10 ">
         <h2
-          className={` ${" text-fuchsia-800"}  font-extrabold my-4 md:text-2xl lg:text-5xl px-8 md:px-10 lg:px-32`}
+          className={` ${" text-fuchsia-800"} poetsen-one-regular font-extrabold my-4 md:text-2xl lg:text-5xl px-8 md:px-10 lg:px-32`}
         >
           About me
         </h2>
@@ -154,7 +154,7 @@ const Homepage = () => {
         className="flex flex-col px-8 md:px-10 lg:px-32 gap-10 py-10"
       >
         <h2
-          className={`font-extrabold md:text-2xl lg:text-5xl my-4 ${"text-fuchsia-800"} `}
+          className={`font-extrabold poetsen-one-regular md:text-2xl lg:text-5xl my-4 ${"text-fuchsia-800"} `}
         >
           Skills
         </h2>
@@ -245,7 +245,7 @@ const Homepage = () => {
       </section>
       <section id="experience" className="flex flex-col px-8 lg:px-28 md:py-20">
         <h2
-          className={`font-extrabold my-4 md:text-2xl lg:text-5xl ${"text-fuchsia-800"} `}
+          className={`font-extrabold my-4 md:text-2xl poetsen-one-regular lg:text-5xl ${"text-fuchsia-800"} `}
         >
           Experience
         </h2>
@@ -259,7 +259,7 @@ const Homepage = () => {
       <Myworks />
       <section id="openSource" className="flex flex-col p-8  lg:px-32 md:py-10">
         <h2
-          className={`font-extrabold my-4 md:text-2xl lg:text-5xl ${"text-fuchsia-800"}  `}
+          className={`font-extrabold my-4 md:text-2xl poetsen-one-regular lg:text-5xl ${"text-fuchsia-800"}  `}
         >
           Open Source Contribution
         </h2>
