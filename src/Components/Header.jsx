@@ -81,7 +81,7 @@ const Header = () => {
           </div>
           <button className=" hidden xl:block cursor-pointer w-fit  self-end items-start px-4 text-white py-2 rounded-full shadow-md hover:bg-indigo-700  ">
               <a href="src/assets/Images/Gbenga_Oluwadahunsi_CV.pdf" download="">
-                Résumé
+                Resume
               </a>
             </button>
 
