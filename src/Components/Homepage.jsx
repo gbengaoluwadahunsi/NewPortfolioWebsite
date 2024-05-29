@@ -3,7 +3,7 @@ import { Link as ScrollLink } from "react-scroll";
 
 import Header from "../Components/Header";
 import BackArrowUp from "../Components/BackArrowUp";
-import myphoto from "../assets/Images/Gbenga.jpg";
+import myphoto from "/me.jpg";
 import Myworks from "./My-works";
 import openSource from "../assets/Images/opensource.png";
 import skills from "../assets/Images/skills.png";
