@@ -25,6 +25,9 @@ import call from "../assets/Images/call.png";
 import google from "../assets/Images/google.png";
 import linkedin from "../assets/Images/linkedin.png";
 import github from "../assets/Images/github.png";
+import Canva from "./Canva.jsx"
+
+
 
 const Homepage = () => {
   return (
@@ -365,6 +368,7 @@ const Homepage = () => {
         </div>
       </div>
       <BackArrowUp />
+      <Canva/>
     </div>
   );
 };
