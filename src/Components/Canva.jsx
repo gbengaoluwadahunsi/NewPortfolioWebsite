@@ -1,5 +1,6 @@
 import { usePointerPosition } from './usePointerPosition.jsx';
 import { useDelayedValue } from './useDelayedValue.jsx';
+import PropTypes from 'prop-types';
 
 export default function Canvas() {
   const pos1 = usePointerPosition();
@@ -13,6 +14,8 @@ export default function Canvas() {
       <Dot position={pos3} opacity={0.6} />
     </div>
   );
+
+  
 }
 
 function Dot({ position, opacity }) {
@@ -30,4 +33,13 @@ function Dot({ position, opacity }) {
       height: 40,
     }} />
   );
+
 }
+
+Dot.propTypes = {
+    position: PropTypes.shape({
+      x: PropTypes.number.isRequired,
+      y: PropTypes.number.isRequired,
+    }).isRequired,
+    opacity: PropTypes.number.isRequired,
+  };
