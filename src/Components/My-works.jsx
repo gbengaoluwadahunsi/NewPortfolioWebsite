@@ -6,7 +6,7 @@ const Myworks = () => {
   const Cadd = ProjectArray.map((item) => (
     <Cards
       key={item.id}
-      id={item.id} // Pass the id as a prop
+      id={item.id} 
       img={item.img}
       menu={item.menu}
       link={item.link}
