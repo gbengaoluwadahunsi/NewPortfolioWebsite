@@ -14,7 +14,7 @@ const Header = () => {
     <div className=" text-indigo-800 mobile-header ">
       <nav>
         <div
-          className={`flex items-center md:items-start  justify-between py-4 bg-blue-300 px-4  md:px-14`}
+          className={`flex items-center  justify-between py-4 bg-blue-300 px-4  md:px-14`}
         >
           {/* Primary menu and logo */}
 
