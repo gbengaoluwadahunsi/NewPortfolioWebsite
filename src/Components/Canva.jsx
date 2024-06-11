@@ -8,7 +8,7 @@ export default function Canvas() {
   const pos3 = useDelayedValue(pos2, 200);
   
   return (
-    <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', pointerEvents: 'none', zIndex: 9999 }}>
+    <div  className = "hidden lg:block" style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', pointerEvents: 'none', zIndex: 9999 }}>
       <Dot position={pos1} opacity={1} />
       <Dot position={pos2} opacity={0.8} />
       <Dot position={pos3} opacity={0.6} />

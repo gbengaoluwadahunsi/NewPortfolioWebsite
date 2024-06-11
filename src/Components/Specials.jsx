@@ -1,8 +1,6 @@
 import PropTypes from "prop-types";
 import { FaGithub } from "react-icons/fa";
 
-import { useContext } from "react";
-
 const Specials = (props) => {
   return (
     <>
