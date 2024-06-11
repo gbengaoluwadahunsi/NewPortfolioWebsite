@@ -80,7 +80,7 @@ const Header = () => {
             
           </div>
           <button className=" hidden xl:block cursor-pointer w-fit  self-end items-start px-4 text-white py-2 rounded-full shadow-md hover:bg-indigo-700  ">
-              <a href="src/assets/Images/Gbenga_Oluwadahunsi_CV.pdf" download="Gbenga_Oluwadahunsi_CV.pdf">
+              <a href="GbengaOluwadahunsiCV.pdf" download="GbengaluwadahunsiCV.pdf">
                 Resume
               </a>
             </button>
@@ -158,7 +158,7 @@ const Header = () => {
                 Contact Me
               </ScrollLink>
               <button className="  xl:hidden cursor-pointer w-fit  px-4 text-white py-2 rounded-full shadow-md hover:bg-indigo-700 hover:transition-all duration-300 ">
-                <a href="src/assets/Images/Gbenga_Oluwadahunsi_CV.pdf" download="Gbenga_Oluwadahunsi_CV.pdf">
+                <a href="GbengaOluwadahunsiCV.pdf" download="GbengaOluwadahunsiCV.pdf">
                   Resume
                 </a>
               </button>
