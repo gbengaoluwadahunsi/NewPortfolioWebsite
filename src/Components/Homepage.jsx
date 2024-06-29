@@ -5,8 +5,6 @@ import Header from "../Components/Header";
 import BackArrowUp from "../Components/BackArrowUp";
 import myphoto from "/me.jpg";
 import Myworks from "./My-works";
-import openSource from "../assets/Images/opensource.png";
-import skills from "../assets/Images/skills.png";
 import Experience from "./Experience";
 import experienceData from "./experienceArray";
 import { IoLogoJavascript, IoLogoFirebase } from "react-icons/io5";
@@ -33,19 +31,19 @@ const Homepage = () => {
   return (
     <div className={""}>
       <Header />
-      <main className=" pt-10 md:pt-20 flex  justify-center flex-col-reverse md:flex-row md:gap-4 px-4 lg:px-32 ">
+      <main className=" pt-10   md:pt-20 flex  justify-center flex-col-reverse md:flex-row md:gap-4 px-4 md:px-16 lg:px-24 2xl:px-32  ">
         <section
           className={`${"text-gray-700 "} basis-[80%] flex flex-col  gap-2 md:gap-8  text-center lg:text-start py-16 lg:py-20`}
         >
          
           
             <p
-              className={`${"text-fuchsia-800"} lg:justify-start  font-extrabold  poetsen-one-regular text-[3.6rem]  sm:text-[4rem] md:text-[6rem]`}
+              className={`${"text-fuchsia-800"} md:justify-start  font-extrabold  poetsen-one-regular text-[3.6rem]  sm:text-[2rem] lg:text-[4rem] 2xl:text-[6rem]`}
             >
               Welcome
             </p>
           
-          <p className="p-2 lg:leading-[3.2rem]  lg:text-4xl">
+          <p className="p-2 lg:leading-[3.2rem] 2xl:leading-[4.2rem] 2xl:text-4xl">
             I&apos;m a Software Engineer that specializes in front-end and
             back-end technologies.I use my skills to provide innovative
             solutions to commercial and social ideas.
@@ -110,30 +108,30 @@ const Homepage = () => {
             duration={2000}
           >
             <button
-              className={`${"bg-indigo-900"} text-white w-fit px-8 lg:px-12 py-4 rounded-full my-4 hover:bg-indigo-700`}
+              className={`${"bg-indigo-900"} text-white w-fit px-8 2xl:px-12 py-4 rounded-full my-4 hover:bg-indigo-700`}
             >
               My Projects
             </button>
           </ScrollLink>
         </section>
-        <section className="basis-[40%]  py-4 mx-auto pt-16 lg:pt-10 ">
+        <section className="basis-[50%]   py-4 mx-auto pt-16 2xl:pt-10 ">
           <img
             src={myphoto}
             alt="my photo"
             loading="lazy"
-            className="object-cover rounded-xl  w-[30rem] md:w-[60rem] h-[20%] md:h-[80%] lg:h-[80%] "
+            className="object-cover rounded-xl  w-[40rem] md:w-[60rem] lg:w-full  h-[20rem] sm:h-[30rem]  md:h-[80%] lg:h-[60%] xl:h-[70%] "
           />
         </section>
       </main>
       <section id="aboutMe" className="  md:mt-10 ">
         <h2
-          className={` ${" text-fuchsia-800"} poetsen-one-regular font-extrabold my-4 md:text-2xl lg:text-5xl px-8 md:px-10 lg:px-32`}
+          className={` ${" text-fuchsia-800"} poetsen-one-regular font-extrabold my-4 md:text-2xl lg:text-4xl 2xl:text-5xl px-4 md:px-10 lg:px-24 2xl:px-32`}
         >
           About me
         </h2>
 
-        <div className=" custom-bg  text-white   flex flex-col gap-20  text-[0.7em] md:text-[0.88em] lg:text-[1.1em] md:justify-center p-4 lg:p-32 ">
-          <p className="  leading-8 md:leading-[3rem]  text-center">
+        <div className=" custom-bg  text-white   flex flex-col gap-20  text-[0.7em] md:text-[0.88em] lg:text-[1.1em] md:justify-center p-4 lg:py-[4rem] lg:px-24 2xl:px-32 ">
+          <p className="  leading-8 md:leading-[3rem]  ">
             I began my adventure in software engineering in 2021, my initial
             goal was to learn Python programming language so I could use
             it&apos;s capabilities in my bioinformatics research (I had been a
@@ -142,7 +140,7 @@ const Homepage = () => {
             study the technologies used in software development.{" "}
           </p>
 
-          <p className="leading-8 md:leading-[3rem]  text-center">
+          <p className="leading-8 md:leading-[3rem]  ">
             In addition to <span>Python</span>, I&apos;ve horned my skills in{" "}
             <span>JavaScript</span>, <span>TypeScript</span> front-end and
             back-end technologies as well as frameworks . I&apos;ve completed a
@@ -154,29 +152,23 @@ const Homepage = () => {
 
       <section
         id="skills"
-        className="flex flex-col px-8 md:px-10 lg:px-32 gap-10 py-10"
+        className="flex flex-col px-8 md:px-10 lg:px-24 2xl:px-32 gap-10 py-20"
       >
         <h2
-          className={`font-extrabold poetsen-one-regular md:text-2xl lg:text-5xl my-4 ${"text-fuchsia-800"} `}
+          className={`font-extrabold poetsen-one-regular md:text-2xl lg:text-4xl 2xl:text-5xl lg:my-4 ${"text-fuchsia-800"}`}
         >
           Skills
         </h2>
-        <div className=" flex flex-col md:flex-row text-center justfy-center gap-16 md:gap-20">
-          <div className="basis-1/2">
-            <img
-              src={skills}
-              alt="software development skills"
-              className=" transform scale-x-[-1]  object-cover shadow-2xl"
-            />
-          </div>
-          <div className="text-gray-900 basis-[78%] ">
-            <p className={`font-extrabold ${"text-indigo-900"} md:text-3xl `}>
+        <div className=" md:flex-row  justfy-center gap-16 md:gap-20">
+          
+          <div className="text-gray-900  ">
+            <p className={`font-extrabold ${"text-indigo-900"} text-lg lg:text-2xl `}>
               I&apos;m proficient in the following programming languages and
-              technologies
+              technologies...
             </p>
 
             <div
-              className={`flex flex-wrap   justify-center  gap-6 lg:gap-3 mt-12`}
+              className={`flex flex-wrap   justify-center  gap-10 mt-8`}
             >
               <div className=" flex flex-col  items-center ">
                 <IoLogoJavascript className="text-5xl md:text-8xl  cursor-pointer hover:text-indigo-900" />
@@ -246,28 +238,27 @@ const Homepage = () => {
           </div>
         </div>
       </section>
-      <section id="experience" className="flex flex-col px-8 lg:px-28 md:py-20">
+      <section id="experience" className="flex flex-col px-8 md:px-10 lg:px-24 2xl:px-32 md:py-20">
         <h2
-          className={`font-extrabold my-4 md:text-2xl poetsen-one-regular lg:text-5xl ${"text-fuchsia-800"} `}
+          className={`font-extrabold my-4 md:text-2xl lg:text-4xl 2xl:text-5xl poetsen-one-regular  ${"text-fuchsia-800"} `}
         >
           Experience
         </h2>
 
-        <div className="flex flex-row justify-between  gap-16 flex-wrap  py-[2rem] cursor-pointer ">
+        <div className="flex  flex-col lg:flex-row  gap-8 2xl:gap-16   py-[2rem] cursor-pointer ">
           {experienceData.map((exp) => (
             <Experience key={exp.id} experience={exp} />
           ))}
         </div>
       </section>
       <Myworks />
-      <section id="openSource" className="flex flex-col p-8  lg:px-32 md:py-10">
+      <section id="openSource" className="flex flex-col px-8 md:px-10 lg:px-24 2xl:px-32 md:py-10 lg:py-16">
         <h2
-          className={`font-extrabold my-4 md:text-2xl poetsen-one-regular lg:text-5xl ${"text-fuchsia-800"}  `}
+          className={`font-extrabold my-4 md:text-2xl poetsen-one-regular lg:text-4xl 2xl:text-5xl ${"text-fuchsia-800"}  `}
         >
           Open Source Contribution
         </h2>
 
-        <div className=" flex  flex-col md:flex-row items-center gap-10">
           <div
             className={`${"text-gray-900"} basis-1/2 flex flex-col gap-10 justify-center`}
           >
@@ -291,14 +282,7 @@ const Homepage = () => {
               to the project but also significantly advanced its development.
             </p>
           </div>
-          <div className="hidden md:block">
-            <img
-              src={openSource}
-              alt=" software developer image"
-              className="transform scale-x-[-1] basis-1/2 object-cover h-[30rem]"
-            />
-          </div>
-        </div>
+          
       </section>
 
       <div id="contactMe" className="relative ">

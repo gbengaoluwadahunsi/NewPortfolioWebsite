@@ -6,8 +6,8 @@ const experienceArray = [
     startDate: "10/2022",
     endDate: "1/2024",
     details: [
-      "Led full Software Development Life Cycle, translating Figma designs into engaging single-page applications, elevating user experience and interaction.",
-      "Created interfaces with CSS, HTML, JavaScript, and React.js. Employed GIT for version control, ensuring smooth code deployment to production.",
+      "Led SDLC, converting Figma designs into interactive single-page applications to improve user experience.",
+      "Developed interfaces using CSS, HTML, JavaScript, React.js, and GIT for smooth code deployment.",
     ],
   },
   {
@@ -18,8 +18,8 @@ const experienceArray = [
     endDate: "till date",
 
     details: [
-      "Integrated frontend and backend systems at Beadaut, creating seamless web apps for improved user experience and efficiency.",
-      "Utilized modern development tools like Git, Webpack, and code linters to ensure code quality and maintainability, resulting in enhanced code quality, version control, and development workflow efficiency, leading to a more robust and maintainable codebase.",
+      "Integrated frontend and backend systems at Beadaut, enhancing web app user experience and efficiency.",
+      "Utilized Git and code linters for improved code quality, version control ,ensuring a robust and maintainable codebase",
     ],
   },
   {

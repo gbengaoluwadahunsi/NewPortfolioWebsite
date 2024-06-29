@@ -6,6 +6,18 @@ export default {
   ],
   
   theme: {
+    screens:{
+      'sm': '640px',
+      'md': '901px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1600px'
+  
+    },
+    fontFamily: {
+      'sans': ['Roboto', 'sans-serif'],
+      'serif': ['Merriweather', 'serif'],
+    },
     extend: {
       colors: {
         customBlue: 'rgb(6, 6, 61)',

@@ -20,13 +20,13 @@ const Myworks = () => {
 
   return (
     <div id="projects">
-      <main className=" px-8 lg:px-32 py-10 ">
+      <main className=" px-8 md:px-10 lg:px-24 2xl:px-32 xl:py-10 ">
         <h2
-          className={`${"text-fuchsia-900"}  poetsen-one-regular font-extrabold my-8 text-md md:text-xl lg:text-5xl`}
+          className={`${"text-fuchsia-900"}  poetsen-one-regular font-extrabold my-8 md:text-2xl lg:text-4xl 2xl:text-5xl`}
         >
           Projects
         </h2>
-        <div className="mt-4 grid justify-around grid-rows-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-4 lg:gap-6 ">
+        <div className=" grid justify-around grid-rows-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-4 lg:gap-6 ">
           {Cadd}
         </div>
       </main>
