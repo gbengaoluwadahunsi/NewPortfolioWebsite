@@ -114,7 +114,7 @@ const Homepage = () => {
             </button>
           </ScrollLink>
         </section>
-        <section className="basis-[50%]   py-4 mx-auto pt-16 2xl:pt-10 ">
+        <section className="basis-[50%]  self-center  py-4 mx-auto pt-16 2xl:pt-10 ">
           <img
             src={myphoto}
             alt="my photo"
