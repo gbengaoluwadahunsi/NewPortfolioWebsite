@@ -119,7 +119,7 @@ const Homepage = () => {
             src={myphoto}
             alt="my photo"
             loading="lazy"
-            className="object-cover rounded-xl  w-[40rem] md:w-[60rem] lg:w-full  h-[20rem] sm:h-[30rem]  md:h-[80%] lg:h-[60%] xl:h-[70%] "
+            className="object-cover rounded-xl  w-[40rem] md:w-[60rem] lg:w-full    md:h-[80%] lg:h-[60%] xl:h-[70%] "
           />
         </section>
       </main>
