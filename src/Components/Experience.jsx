@@ -15,11 +15,12 @@ const Experience = ({ experience }) => {
               <p className="text-gray-600">{`@${experience.company}`}</p>
             </div>
           </div>
-          <div>
+          <div className="flex gap-2 justify-center" >
             <span>{experience.startDate}</span> 
+            <span>-</span>
             <span>{experience.endDate}</span>
           </div>
-          <span className="text-slate-800 text-sm mt-10">click to view</span>
+          <span className="text-slate-800 text-sm mt-10">Hover to view</span>
         </div>
         <div className="flip-card-back text-sm flex flex-row ">
           <div className="w-[90%] bg-white text-gray-900 m-auto flex flex-col gap-4 px-2">

@@ -31,7 +31,7 @@ const Specials = (props) => {
               className=" text-[1rem] xl:text-[1.2rem] text-zinc-400 hover:text-fuchsia-600 "
             >
               {" "}
-             Hover to View
+             Click to View
             </a>
             <a
               className=" place-self-end"
