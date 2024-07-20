@@ -1,6 +1,23 @@
 const MenuArray = [
+ 
   {
+
+    
     id: 1,
+    img: "coinsight.webp",
+    title: "Coinsight",
+    menu: "Coinsight",
+    description:
+      "CoinSight is a dynamic cryptocurrency tracking app with real-time market data & AI-powered report.",
+    stack: "HTML5, CSS3, JavaScript, Groq AI model, React.js",
+    linked: "https://gbengaoluwadahunsi.github.io/coinSight/",
+    gitHubRepo: "https://github.com/gbengaoluwadahunsi/coinSight",
+  },
+
+  {
+
+    
+    id: 2,
     img: "astonish.webp",
     title: "Astonish Designs",
     menu: "Astonish Designs",
@@ -11,7 +28,7 @@ const MenuArray = [
     gitHubRepo: "https://github.com/gbengaoluwadahunsi/Astonish-Designs",
   },
   {
-    id: 2,
+    id: 3,
 
     img: "knocks.webp",
     title: "Knocks",
@@ -23,17 +40,7 @@ const MenuArray = [
     gitHubRepo:
       "https://github.com/gbengaoluwadahunsi/gbengaoluwadahunsi-FullStackOpenExercises-PART3",
   },
-  {
-    id: 3,
-    img: "Pizzon.webp",
-    title: "Pizzon",
-    menu: "Pizzon",
-    description:
-      "A fullstack Pizza ordering  web app where customers can order pizza and the Admin too can view orders.",
-    stack: "HTML5, CSS3, JavaScript, Tailwind, Next.js",
-    linked: "https://pizza-ordering-webapp-psi.vercel.app/",
-    gitHubRepo: "https://github.com/gbengaoluwadahunsi/Pizza-Ordering-Webapp",
-  },
+
 
   {
     id: 4,
